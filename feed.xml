@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Quando Valluanino</title>
+    <link href="https://valluanino.github.io/quandovalluanino/feed.xml" rel="self" />
+    <link href="https://valluanino.github.io/quandovalluanino" />
+    <updated>2024-09-04T11:19:05+02:00</updated>
+    <author>
+        <name>Valerio</name>
+    </author>
+    <id>https://valluanino.github.io/quandovalluanino</id>
+
+    <entry>
+        <title>Transferring a domain name in use with iCloud custom domain</title>
+        <author>
+            <name>Valerio</name>
+        </author>
+        <link href="https://valluanino.github.io/quandovalluanino/transferring-a-domain-name-in-use-with-icloud-custom-domain/index.html"/>
+        <id>https://valluanino.github.io/quandovalluanino/transferring-a-domain-name-in-use-with-icloud-custom-domain/index.html</id>
+
+        <updated>2024-09-04T11:19:05+02:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Years ago I purchased a domain name so I could have a customised e-mail address through Microsoft 365 Personal. The registrar was... Godaddy. YES, I know: in my defence, it was Microsoft's default registrar for personal domain names, so I just went with it. Last year though, out of the&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Years ago I purchased a domain name so I could have a customised e-mail address through Microsoft 365 Personal. The registrar was... Godaddy. YES, I know: in my defence, it was Microsoft's default registrar for personal domain names, so I just went with it. Last year though, out of the bluest blue and for absolutely incomprehensible reasons, Microsoft decided to deprecate and retire the customised domain name functionality from 365 Personal. As I pay for an Apple One Premium plan, I decided to make use of the included Custom E-mail Domain feature and re-created the same e-mail address through iCloud. The onboarding process was buttery-smooth: I entered my domain name, Apple realised it was registered and managed through Godaddy, and asked me permission to edit the DNS records so they could reflect the proper values in order for the feature to work; I granted it, things happened behind the scenes and before I knew it, the procedure was over and I was left with the same e-mail address I had previously, only through iCloud.</p>
+<p>You'll probably guess where I'm going: about a week ago I realised that <em>renewal season was approaching</em>. Also, I realised that Godaddy is <em>expensive</em>, compared to other, more nimble yet apparently reliable registrars. That's why I decided to transfer my domain to Porkbun. Websites and domain names aren't my bread-and-butter though, so I obviously asked myself what next: was I supposed to deactivate the Custom E-mail Domain feature, transfer the domain, do whatever I had to do with the DNS records, then set up the feature again? But what if by whatever Apple quirk I couldn't recreate or I lost access to the address? Maybe copying the DNS records during the transfer would have been enough?</p>
+<p>Apparently, iCloud Mail with custom domain names uses <a href="https://support.apple.com/en-us/102374" target="_blank" rel="noopener noreferrer">five DNS records</a>: two MX, one CNAME (for DKIM) and two TXT. Their values are the same for all iCloud Mail accounts, except for one of those TXT records, which contains a personal value that's unique for each custom domain. I obviously knew my personal value, since it was right there in Godaddy's DNS dashboard. I looked around Reddit and personal blogs to see if other people had anything to say about similar experiences: in one Reddit thread, a user reported that none of the values were registrar-dependent, so in theory one could just copy them over to the new registrar during the transfer procedure while trying to have as little downtime as possible. Separately, I posted on a Google user group (<em>they still exist!!</em>) asking for advice, but either I didn't explain myself clearly or I think they had no idea how the iCloud feature worked, since they argued that I would've had to set up everything again; maybe they thought that Apple directly manages those domain names? Who knows.</p>
+<p>Long story short: I purchased the transfer on a Saturday, copied the required DNS records and values from Godaddy to Porkbun (<em>including the personal TXT value</em>; the <a href="https://kb.porkbun.com/article/199-how-to-configure-your-domain-to-icloud-hosted-email" target="_blank" rel="noopener noreferrer">KB guide</a> is quite clear in saying what goes where, though it doesn't mention this specific aspect), followed <a href="https://kb.porkbun.com/article/89-how-to-transfer-a-domain-to-porkbun-with-no-downtime" target="_blank" rel="noopener noreferrer">their suggestions</a> so I could minimise the DNS downtime, and manually released the outgoing transfer from Godaddy. After waiting about 24 hours and sending a few test e-mails to <a href="https://www.mail-tester.com/" target="_blank" rel="noopener noreferrer">mail-tester.com</a> (if you use a custom domain for e-mail: do it!), by Sunday evening everything worked flawlessly without disabling and setting up anything on Apple's side.</p>
+<p>So, in case you use iCloud Mail with a custom domain and you want to transfer the domain name to a new registrar: just copy and paste the DNS records. You'll be fine, <em>I guess</em>. At least, it went fine for me, so... 🤷</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>THAT famous XKCD strip</title>
+        <author>
+            <name>Valerio</name>
+        </author>
+        <link href="https://valluanino.github.io/quandovalluanino/that-famous-xkcd-strip/index.html"/>
+        <id>https://valluanino.github.io/quandovalluanino/that-famous-xkcd-strip/index.html</id>
+
+        <updated>2024-06-09T12:24:34+02:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    It's election day in the European Union and some people are getting worked up talking about electronic voting. Again. That famous XKCD strip came to mind, which made me ask myself is anyone has ever translated it to Italian (someone must have, but I can't find it). I did it&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>It's election day in the European Union and some people are getting worked up talking about electronic voting. <em>Again</em>.</p>
+<p><a href="https://xkcd.com/2030/" target="_blank" rel="noopener noreferrer">That famous XKCD strip</a> came to mind, which made me ask myself is anyone has ever translated it to Italian (someone <em>must</em> have, but I can't find it). I did it in a few minutes, without putting much thought into it and without previous knowledge of comic translation, lettering and such. In fact, I just used an iPad. It's amateurish, but hey, I did it in half an hour on a Sunday morning. Cut me some slack.</p>
+<p>Here it is, for future reference. (covered by a CC Attribution-Noncommercial 2.5 License; link to the original strip above)</p>
+<figure class="post__image"><img loading="lazy"  src="https://valluanino.github.io/quandovalluanino/media/posts/7/software-di-voto.png" alt="" width="1204" height="1211" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://valluanino.github.io/quandovalluanino/media/posts/7/responsive/software-di-voto-xs.png 640w ,https://valluanino.github.io/quandovalluanino/media/posts/7/responsive/software-di-voto-sm.png 768w ,https://valluanino.github.io/quandovalluanino/media/posts/7/responsive/software-di-voto-md.png 1024w ,https://valluanino.github.io/quandovalluanino/media/posts/7/responsive/software-di-voto-lg.png 1366w ,https://valluanino.github.io/quandovalluanino/media/posts/7/responsive/software-di-voto-xl.png 1600w ,https://valluanino.github.io/quandovalluanino/media/posts/7/responsive/software-di-voto-2xl.png 1920w"></figure>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>About Ali</title>
+        <author>
+            <name>Valerio</name>
+        </author>
+        <link href="https://valluanino.github.io/quandovalluanino/about-ali/index.html"/>
+        <id>https://valluanino.github.io/quandovalluanino/about-ali/index.html</id>
+
+        <updated>2024-05-27T23:04:24+02:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    <p>My dad owns a small cottage in the Salento countryside with a little parcel of land where we've been hosting Ali, a 40-ish years-old man from Sudan. I'm not sure about his age because he himself doesn't know it with certainty; moreover, as he explained to us, looking to fill this knowledge gap by asking the local Sudanese mosque or government offices would have exposed him to the risk of being forcibly conscripted.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>My dad owns a small cottage in the Salento countryside with a little parcel of land where we've been hosting Ali, a 40-ish years-old man from Sudan. I'm not sure about his age because he himself doesn't know it with certainty; moreover, as he explained to us, looking to fill this knowledge gap by asking the local Sudanese mosque or government offices would have exposed him to the risk of being forcibly conscripted.</p>
+
+<p>Despite his many herniae and general aches, he often travels around Southern Italy working in the fields during periodical harvests (<em>fare la stagione</em>, as we say in Italian; literally, <em>to do the season</em>), dealing with off-the-books recruiters (read: <em>kapos</em>) and small business owners (read: <em>slavers</em>) who show their bestial selves whenever he asks for decent pay for a decent job. "These <em>negri</em>, coming here thinking they own the place. What the fuck are they thinking?, that <em>they</em>'re the masters?".</p>
+<p>Several of his many brothers died in the past few years. Some were casualties in the current Sudanese civil war. One of his sons was killed last year, among the firsts after conflict broke out.</p>
+<p>Ali came by a few days ago and showed me some pictures and videos he received a few days back. Opening fire on civilians is normal. Everyday routine. Drones bomb open markets without a single care: piles of bodies, people with limbs torn to shreds wailing in pain among the indifference of passersby. In this one video, a person's belly was cut entirely open; three militians surrounded the body and started playing with the insides, dipping their hands like in a pot of meat stew, stirring flesh and organs and unravelling the intestines like a ball of yarn.</p>
+<p>While I struggled to suppress a barf and tried looking away, Ali was almost serene in his own resignation. As he said: in our lives there, this is routine. What's "not good", he said, is that they specifically targeted a street market. "That's not good". Everything else didn't appear to stir him much. I wonder what else he might have seen.</p>
+<p><strong>Side-note</strong>. For a few months, Ali was among the recipients of a State minimum-income program, the so called "reddito di cittadinanza" (<em>citizens' income</em>). When he suddenly stopped receiving it, he blamed the stereotypical Italian bureaucratic mess and moved on with his life. A few weeks ago, he was served a formal complaint by the finance police: the State of Italy argues that he received this sum <em>while not residing in Italy</em>. He's been in Italy for almost 15 years on a special-protection permit. He has a <em>codice fiscale</em> (like, a social security number that allows access to public healthcare). At the local police headquarters they know he lives here because my dad registered an actual, official, one-hundred-percent legally binding statement declaring that Ali is our guest at our cottage, including the address and everything else required by law. Still, he's being investigated for... like, <em>fraud against the Italian state</em>? Apparently, other friends of Ali are being investigated as well, and they've been in Italy for years too.</p>
+<p>This is what happens when the government is run by fascists, I guess.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Ctrl key not working in Windows 11 and Parallels Desktop</title>
+        <author>
+            <name>Valerio</name>
+        </author>
+        <link href="https://valluanino.github.io/quandovalluanino/ctrl-key-not-working-in-windows-11-and-parallels-desktop/index.html"/>
+        <id>https://valluanino.github.io/quandovalluanino/ctrl-key-not-working-in-windows-11-and-parallels-desktop/index.html</id>
+
+        <updated>2024-04-25T13:28:07+02:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    <p>As a professional translator and a Mac user, I'm quite familiar with Parallels Desktop and running a Windows virtual machine just to have access to the biggest, industry-standard computer-assisted translation (CAT) tools, like Trados Studio and memoQ. I could spend hours moaning about the woes they cause me, but here I want to talk very briefly about the most recent problem that occurred to me.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>As a professional translator and a Mac user, I'm quite familiar with Parallels Desktop and running a Windows virtual machine just to have access to the biggest, industry-standard computer-assisted translation (CAT) tools, like Trados Studio and memoQ. I could spend hours moaning about the woes they cause me, but here I want to talk very briefly about the most recent problem that occurred to me.</p>
+
+<p>After a few weeks of jobs that required web-based translation tools (like XTM, Smartling and Phrase, previously known as Memsource), I received a project to be completed in Trados. I turned on my VM, opened Trados 2021, set up the project and discovered, to my great annoyance, that the main Confirm keyboard shortcut (Ctrl+Enter) wasn't working anymore. Since the Enter key and copy-pasting shortcuts (Ctrl+C and Ctrl+V) worked correctly, I assumed it was a problem with Trados. After resetting the keyboard shortcuts – which didn't work – I hastily blamed the software on Mastodon, created a different shortcut (Alt [Option on Mac]+Plus key, which on an Italian keyboard layout is right next to the Enter key) and set to work.</p>
+<p>This week I received another job that required a Windows-based software, in this case memoQ. I checked-out the job from the server, translated the first segment, pressed Ctrl+Enter and... nothing happened. "What the hell...?".</p>
+<p>This time though, right as I was setting up another memoQ shortcut, I remembered that when I tried to solve the problem that occurred in Trados about a month ago I googled something like "trados ctrl key stopped working". This time though it wasn't working in memoQ, so it could only mean that the problem was somewhere else, between Windows and Parallels Desktop.</p>
+<p>After a brief Google search, I found a topic on the Parallels forums reporting that a certain Windows update broke some Ctrl key shortcuts, which was corroborated by multiple users. As it happens, the solution is temporary but simple.</p>
+<p>From the <strong>Parallels Desktop preferences</strong>, go to the <strong>Hardware</strong> tab, then <strong>Mouse &amp; Keyboard</strong> and click <strong>Open Shortcut Preferences</strong>. Here, click on the <strong>+</strong> button and manually enter the MacOS shortcut and the equivalent Windows one.</p>
+<figure class="post__image"><img loading="lazy"  src="https://valluanino.github.io/quandovalluanino/media/posts/5/screenshot_parallels_ctrl1.png" alt="" width="1824" height="871" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://valluanino.github.io/quandovalluanino/media/posts/5/responsive/screenshot_parallels_ctrl1-xs.png 640w ,https://valluanino.github.io/quandovalluanino/media/posts/5/responsive/screenshot_parallels_ctrl1-sm.png 768w ,https://valluanino.github.io/quandovalluanino/media/posts/5/responsive/screenshot_parallels_ctrl1-md.png 1024w ,https://valluanino.github.io/quandovalluanino/media/posts/5/responsive/screenshot_parallels_ctrl1-lg.png 1366w ,https://valluanino.github.io/quandovalluanino/media/posts/5/responsive/screenshot_parallels_ctrl1-xl.png 1600w ,https://valluanino.github.io/quandovalluanino/media/posts/5/responsive/screenshot_parallels_ctrl1-2xl.png 1920w"><figcaption>The software is in Italian, but it's quite self-explanatory.</figcaption></figure>
+<figure class="post__image" ><img loading="lazy" src="https://valluanino.github.io/quandovalluanino/media/posts/5/screenshot_parallels_ctrl2.png" alt="" width="1268" height="400" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://valluanino.github.io/quandovalluanino/media/posts/5/responsive/screenshot_parallels_ctrl2-xs.png 640w ,https://valluanino.github.io/quandovalluanino/media/posts/5/responsive/screenshot_parallels_ctrl2-sm.png 768w ,https://valluanino.github.io/quandovalluanino/media/posts/5/responsive/screenshot_parallels_ctrl2-md.png 1024w ,https://valluanino.github.io/quandovalluanino/media/posts/5/responsive/screenshot_parallels_ctrl2-lg.png 1366w ,https://valluanino.github.io/quandovalluanino/media/posts/5/responsive/screenshot_parallels_ctrl2-xl.png 1600w ,https://valluanino.github.io/quandovalluanino/media/posts/5/responsive/screenshot_parallels_ctrl2-2xl.png 1920w">
+<figcaption >Top: the keys that you press on your Mac keyboard. Bottom: the keyboard shortcut that should be mapped in Windows.</figcaption>
+</figure>
+<p>Apparently, only some installations run into this problem and fresh Windows installs are immune as well. Though this is a workaround and not a final fix, it's good to know that <em>for once</em> it's not Trados' fault. So... sorry Trados, you have <em>many many</em> problems and even pressing Ctrl+Enter twice too fast breaks you to pieces, but I'll give you a pass this time.</p>
+<p> </p>
+<p><em>p.s.: *taps mic* ...is this thing even on? I know I haven't written anything in like, three years. I've thought about doing it for a few months, but it all seems too personal right now and I have yet to decide the shape and/or platform where I want this thing published (a static site? Apple Notes-blogging-tool Montaigne? Pika.page? Micro.blog? Should I even pay in the first place?). Maybe this post will unlock something in me, I don't know.</em></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>For the life of me...</title>
+        <author>
+            <name>Valerio</name>
+        </author>
+        <link href="https://valluanino.github.io/quandovalluanino/for-the-life-of-me/index.html"/>
+        <id>https://valluanino.github.io/quandovalluanino/for-the-life-of-me/index.html</id>
+
+        <updated>2021-07-07T16:00:00+02:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    <p>... I don't know how people who live an exaggerated amount of time zones away (like, think UTC-8 compared to UTC+2, basically CEST) can keep up with stuff that happens on the other side of the world and seem <em>so comfortable</em> doing that to boot. This comes from a guy who finds Skype calls almost unbearably stressful (especially if only audio is involved) and has ignored Skype calls in the past because the only thing he could think while receiving the call was “Oh god...”, so take my rant with a grain of salt.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>... I don't know how people who live an exaggerated amount of time zones away (like, think UTC-8 compared to UTC+2, basically CEST) can keep up with stuff that happens on the other side of the world and seem <em>so comfortable</em> doing that to boot. This comes from a guy who finds Skype calls almost unbearably stressful (especially if only audio is involved) and has ignored Skype calls in the past because the only thing he could think while receiving the call was “Oh god...”, so take my rant with a grain of salt.</p>
+
+<p>Like, there's this guy I know who, guess what, lives somewhere like UTC-8 or -9 (I don't feel like checking, and I also don't want to be too specific). Once in a while, <em>wow</em>, he starts posting stuff and getting genuinely interested about life at his old place, which coincidentally is my <em>everyday</em> place, like he still lives there. What gives? And most of all: how can you maintain relationships so tightly and so comfortably that you suddenly feel like you should start shilling for local political candidates? Like, you haven't lived here for ages, and every time you come you behave like a tourist, this is clearly not <em>entirely</em> your place anymore, yet you don't feel... <em>weird</em> suggesting people how to vote in -again, sorry for repeating, a <em>very</em> local election? And it's just because you know the guy?</p>
+<p>So, you get to tell people who they should vote for major of a town you live, like, 8 time zones away from because you skype the guy, and I can't even get myself to ask “How have you been doing?” to a guy in my neighbouring country 'cause I feel like I'm invading and I get anxious?... <em>holy shit!</em></p>
+<p>Yeah, I know it's just me and not him, but it's been bothering me tonight. That's why I'm rambling.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Previously...</title>
+        <author>
+            <name>Valerio</name>
+        </author>
+        <link href="https://valluanino.github.io/quandovalluanino/previously/index.html"/>
+        <id>https://valluanino.github.io/quandovalluanino/previously/index.html</id>
+
+        <updated>2021-06-19T18:00:00+02:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    <p><em>This was posted elsewhere on 31 March, 2021</em></p>
+<p>It's been almost three years, and like many people in the world might say right now, <em>things have changed</em>.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><em>This was posted elsewhere on 31 March, 2021</em></p>
+<p>It's been almost three years, and like many people in the world might say right now, <em>things have changed</em>.</p>
+
+<p>I stopped cross-training (yeah, the functional training course evolved to adapt to our growing competence), reverting to regular exercise at home, about three times a week. As I said: I'm not a gym junkie, I exercise because from time to time I feel the need to disconnect. Obviously, in these times of business closures and social distancing, the whole aspect of <em>reaching out</em> that I wrote about in 2018 is impossible to satisfy. Still, this hasn't prevented me from obsessing over small things, which grew into big things, eventually becoming monstrous retrospections and ominous divinations. Last April, the mere, innocent act of participating in a <em>goddamn Discord server</em> was enough to send me down a spiral of self-commiseration and mood swings that lasted for months. Am I good enough? Do I have a chance, any chance? Why do I feel the need to establish meaningful relationships, if the act of doing it is so exhausting to me because I keep being all tight and serious-looking around people? When did I grow up like this, feeling miserable when I'm not forcing myself into not thinking about how am I doing, by working of filling my free time with amenities and entertainment? Am I shallow for doing so? Am I shallow for being tired of all this, for not caring about things with the same passion I had in my early twenties?</p>
+<p>But most of all: am I stupid, or ungrateful, or even selfish, for asking myself how am I mentally doing?</p>
+<p>I don't have an answer to all that; I don't know if I should actively look for an answer, actually. Maybe it's these times we're living that are altering my perspective.</p>
+<p>Is it weird to say that despite all this generic anxiety, a few of the memories I enjoy the most are from the time I did amateur theatre? Maybe I should give it another go, when times are less... <em>plague-y</em>.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>A year not wasted, for once</title>
+        <author>
+            <name>Valerio</name>
+        </author>
+        <link href="https://valluanino.github.io/quandovalluanino/a-year-not-wasted-for-once/index.html"/>
+        <id>https://valluanino.github.io/quandovalluanino/a-year-not-wasted-for-once/index.html</id>
+
+        <updated>2018-12-04T18:00:00+01:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    <p><em>(this was originally posted elsewhere on October 1st, 2018)</em></p>
+<p>Up until four years ago, I was totally sedentary. This was also due to an old ankle injury (we’re talking about 2007-ish) that made me feel less confident in doing any kind of physical activity. And by the way it still hurts sometimes, and I still can’t bend the right ankle past a certain degree – but still.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><em>(this was originally posted elsewhere on October 1st, 2018)</em></p>
+<p>Up until four years ago, I was totally sedentary. This was also due to an old ankle injury (we’re talking about 2007-ish) that made me feel less confident in doing any kind of physical activity. And by the way it still hurts sometimes, and I still can’t bend the right ankle past a certain degree – but still.</p>
+
+<p>Four years ago was when I was introduced to the idea of <em>going to a gym</em>. Mind you: I’m not a gym buff, quite the opposite in fact. It wasn’t something I did with passion: it was just a new routine, something that helped me unwind. Time passed, and I realised that something was missing. When the benefits grinded to a halt and started actually reverting, I knew I had to change something. I asked myself what was it that I was doing wrong, and I think (<em>post-hoc</em>) I figured it out.</p>
+<p>As I said, I’m not a gym buff. In fact, I tend not to be social at all. I’m not an extrovert and I’d rather not take initiatives. Still, in all my fondest memories I’m never alone. I may not be the protagonist in most of them, I may be in the background more often than not, but I’m still there- <em>with people</em>. There’s no point in breaking the lonely routine being lonely somewhere else (in my case, the gym). Being comfortable with myself and doing it for my own sake wasn’t cutting it anymore. After many, <em>many years</em>, I felt, for once, the need to <em>reach out</em>, integrating my own, personal motivation with those of other people. I felt I needed to be at peace with others in order to be at peace with myself.</p>
+<p>It’s been a year since then. Last October I signed up for a functional training course. A year later, I can say it was there that I realised I was correct in my analysis. This newfound spark brought better daily habits and both psychological and physical benefits: I go out much more often, even for a simple walk; I’m less moody and more tranquil; I managed to lose 10 kg in 5 months just by eating less- no super-extra-fancy special weight-loss diet needed (and trust me, a year ago losing 10 kg would have been one of my <em>wildest</em> dreams).</p>
+<p>What I learned is that finding the right motivation is fundamental. Tech gizmos, like heart-rate monitors, smart wearables and calorie-counting apps, do help when trying to reach a certain goal, but without the right mindset you risk not even seeing it from afar. And if you lose your motivation, it’s probably because you’re changing. The drive you had when you started got replaced with a new one: failing to take notice can be easy and it always brings disorientation and, eventually, dispassion. I managed to noticed this change in time and tried to foster it, letting it suggest me what to do next.</p>
+<p>And hey, it worked. A year later I can say, for once and after many disappointments, that this year wasn’t wasted.</p>
+            ]]>
+        </content>
+    </entry>
+</feed>
